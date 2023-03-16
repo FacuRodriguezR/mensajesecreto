@@ -1,14 +1,48 @@
 #caja{
     width: 300px;
     height: 50px;
-    border: 2px dashed black;
-    background-color: rgb(126, 126, 116);
+    border: none;
+    background-color: #e6e679;
     text-align: center;
     transition: all 300ms ease-in-out;
     line-height: 50px;
-    color: white;
+    color: rgb(67, 67, 67);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 10px;
+    margin-top: 20px;
     display: none;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 8px black);
+}
+
+
+#todoEnUno{
+    background-color: #7e7e74 ;
+    border-radius: 5px;
+    border: none;
+    filter: drop-shadow(0 0 8px black);
+    color: white;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+#animar{
+    background-color: #7e7e74 ;
+    border-radius: 5px;
+    border: none;
+    filter: drop-shadow(0 0 8px black);
+    color: white;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+
+
+h1{
+    font-family: verdana;
+
+    color: brown;
+    
 }
 
